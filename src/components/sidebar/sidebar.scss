@@ -1,0 +1,75 @@
+.sidebar {
+  flex: 1;
+  min-height: 100vh;
+  background-color: #191c24;
+  min-width: 244px;
+  a {
+    text-decoration: none;
+  }
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+  .center {
+    padding-left: 10px;
+    .collapsible .content {
+      padding: 6px;
+      background-color: #eeeeee;
+      color: white;
+    }
+    .collapsible .header {
+      background-color: #dddddd;
+      padding: 6px;
+      color: white;
+      cursor: pointer;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      width: 150px;
+      cursor: pointer;
+      &:hover {
+        background-color: #0f1015;
+        border-radius: 0px 100px 100px 0px;
+      }
+      .active {
+        span {
+          color: white;
+        }
+      }
+
+      .icon {
+        margin: 1rem;
+        font-size: 0.5rem;
+        line-height: 1;
+        background: rgba(#191c24, 0.2);
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+      }
+      span {
+        font-size: 15px;
+        font-weight: 600;
+        color: #a0a0a0;
+        margin-left: 10px;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}

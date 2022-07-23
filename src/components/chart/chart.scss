@@ -1,0 +1,16 @@
+.chart {
+  flex: 7;
+  padding: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  background-color: #191c24;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .chartGrid {
+    stroke: rgb(228, 225, 225);
+  }
+}
